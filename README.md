@@ -1,2 +1,2 @@
-# Real_Estate
-Real Estate Listing Api Project using django
+# Checkpoint
+A version control system using Python OOP concepts.
