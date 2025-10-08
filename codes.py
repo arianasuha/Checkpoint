@@ -13,4 +13,4 @@ class Commit:
 
 class Repository:
     def __init__(self, repo_name):
-        self.reponame = name
+        self.reponame = repo_name
