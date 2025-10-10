@@ -1,16 +1,23 @@
 from datetime import datetime
 
 class Commit:
-    def __init__(self,commit_id, message):
-        self.commit_id = self.hash_commit_id(commit_id)
+    def __init__(self, message, snapshot = {}):
         self.timestamp = datetime.now()
         self.message = str(message)
+        self.snapshot = snapshot
 
-    @staticmethod
-    def hash_commit_id(commit_id):
-        pass
+    def __rep__(self):
+        print()
 
 
 class Repository:
-    def __init__(self, repo_name):
-        self.reponame = repo_name
+    def __init__(self):
+        self.commits = []
+
+
+    def add_commit(self):
+        pass
+
+
+r1 = Repository()
+
